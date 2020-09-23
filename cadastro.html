@@ -2,12 +2,25 @@
 <html>
 <head>
 	<title>Tela de cadastro</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://marianatassan.github.io/css/styles.css">
 <body>
-    <label>Nome:</label><input type="text" name="nome" id="nome"><br>
-		<label>Email:</label><input type="text" name="email" id="email"><br>
-		<label>Telefone:</label><input type="text" name="telefone" id="telefone"><br>
-		<label>Senha:</label><input type="password" name="senha" id="senha"><br>
-		<input type="submit" value="Cadastrar" id="cadastrar" name="cadastrar">
-    </form>
+    <form action="action_page.php" method="post">
+  		<div class="container">
+			<label for="login"><b>Nome</b></label>
+    			<input type="text" name="nome" required>
+			
+			<label for="email"><b>Email</b></label>
+    			<input type="text" name="email" required>
+			
+			<label for="telefone"><b>Telefone</b></label>
+    			<input type="text" name="telefone" required>
+
+    			<label for="senha"><b>Senha</b></label>
+    			<input type="password" name="senha" required>
+
+   			 <button type="submit">Cadastrar</button>
+	   	 </div>
+	</form>
 </body>
 </html>
