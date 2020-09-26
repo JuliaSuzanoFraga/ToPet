@@ -1,6 +1,5 @@
 body {
 	margin: 0 auto;
-	#background-color: #F8E2FF;
 }
 
 .cabeca {
@@ -42,7 +41,7 @@ body {
 }
 
 .cabeca ul li a:hover {
-	text-decoration: underline;
+    border-bottom:2px solid #EA0000;
 }
 
 .botoes-fotos-animais p {
@@ -102,8 +101,8 @@ body {
 	margin-left:auto; 
 	margin-right:auto;
 	width: 50%;
-	#background-color: #F8E2FF;
 }
+
 
 .texto p {
 	font-size: 18px;
@@ -135,3 +134,4 @@ body {
 	float: right;
 	padding: 10px 10px; 
 }
+
