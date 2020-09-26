@@ -1,61 +1,60 @@
 body {
 	margin: 0 auto;
-	background-color: #F8E2FF;
+	#background-color: #F8E2FF;
 }
 
 .cabeca {
-  display: table;
-  width: 100%;
+	display: table;
+	width: 100%;
 }
 
 .cabeca h1 {
-  display: inline-block;
-  font-size: 40px;
-  margin-left: 1em;
-  vertical-align: middle;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 1em;
+	vertical-align: middle;
 }
 
 .cabeca img {
-  display: inline-block;
-  margin-left: 1em;
-  width: 60px;
-  vertical-align: middle;
+	display: inline-block;
+	margin-left: 1em;
+	width: 60px;
+	vertical-align: middle;
 }
 
 .cabeca ul{
-  display: table;
-  float: right;
-  margin-top:auto;
-  margin-bottom:auto;
-  list-style: none;
+	display: table;
+	float: right;
+	margin-top:auto;
+	margin-bottom:auto;
+	list-style: none;
 }
 
 .cabeca ul li {
-  display: table-cell;
-  padding: 3em 1em 0em 1em;
+	display: table-cell;
+	padding: 3em 1em 0em 1em;
 }
 
 .cabeca ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
 }
 
 .cabeca ul li a:hover {
-  color: #4CAF50;
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .botoes-fotos-animais p {
-  font-size: 20px;
-  text-align: center;
+	font-size: 20px;
+	text-align: center;
 }
 
 .botoes-fotos-animais ul1 {
-  display: table;
-  list-style: none;
-  margin-left:auto; 
-  margin-right:auto;
+	display: table;
+	list-style: none;
+	margin-left:auto; 
+	margin-right:auto;
 }
 
 .botoes-fotos-animais ul1 li {
@@ -64,22 +63,22 @@ body {
 }
 
 .botoes-fotos-animais ul1 li a img{
-  display: table-cell;
-  width: 200px;
-  height: 180px;
-  border: 3px solid #000000;
+	display: table-cell;
+	width: 200px;
+	height: 180px;
+	border: 3px solid #000000;
 }
 
 .botoes-fotos-animais ul1 li a img:hover {
-  border: 3px solid #4CAF50;
-  border-radius: 20%;
+	border: 3px solid #4CAF50;
+	border-radius: 20%;
 }
 
 .botoes-fotos-animais ul2 {
-  display: table;
-  list-style: none;
-  margin-left:auto; 
-  margin-right:auto;
+	display: table;
+	list-style: none;
+	margin-left:auto; 
+	margin-right:auto;
 }
 
 .botoes-fotos-animais ul2 li {
@@ -88,51 +87,51 @@ body {
 }
 
 .botoes-fotos-animais ul2 li a img{
-  display: table-cell;
-  width: 200px;
-  height: 180px;
-  border: 3px solid #000000;
+	display: table-cell;
+	width: 200px;
+	height: 180px;
+	border: 3px solid #000000;
 }
 
 .botoes-fotos-animais ul2 li a img:hover {
-  border: 3px solid #4CAF50;
-  border-radius: 20%;
+	border: 3px solid #4CAF50;
+	border-radius: 20%;
 }
 
 .texto {
 	margin-left:auto; 
 	margin-right:auto;
 	width: 50%;
-	background-color: #F8E2FF;
+	#background-color: #F8E2FF;
 }
+
 .texto p {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: justify;
 }
 
 .texto h1 {
+	font-size: 25px;
 	text-align: center;
 }
 
 .texto img {
 	width: 200px;
-	height: 180px;
+	height: 150px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
 }
-.redes_sociais ul{
-	list-style: none;
-}
 
-.redes_sociais p{
-	list-style: none;
-	text-align:center;
-}
-
-.redes_sociais li a img {
-	width: 35px;
-	height: 30px;
+.redes_sociais {
 	position: absolute;
-	left: 50%;
+	bottom: 0;
+	left: 43%;
+}
+
+.redes_sociais img {
+	width: 32px;
+	height: 23px;
+	float: right;
+	padding: 10px 10px; 
 }
