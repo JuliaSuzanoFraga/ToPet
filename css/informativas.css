@@ -87,7 +87,8 @@ body {
 	height: 300px;
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+    	margin-right: auto;
+	margin_top: 10px
 }
 
 .conteudo p {
@@ -96,25 +97,25 @@ body {
 }
 
 #higiene img{
-	margin-right: 5px;
+	margin-right: 10px;
 	width: 325px;
 	float: left;
 }
 
 #alimentacao img{
-	margin-right: 5px;
+	margin-right: 10px;
 	width: 325px;
 	float: left;	
 }
 
 #atividade img{
-	margin-right: 5px;
+	margin-right: 10px;
 	width: 325px;
 	float: left;	
 }
 
 #saude img{
-	margin-right: 5px;
+	margin-right: 10px;
 	width: 325px;
 	float: left;	
 }
